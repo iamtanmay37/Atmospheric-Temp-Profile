@@ -1,19 +1,26 @@
 # International Standard Atmosphere (ISA) Temperature Model
 
-This Python project simulates the temperature variations in the Earth's atmosphere from sea level to the Mesopause (90km).
+A Python-based simulation to calculate and visualize the temperature profile of Earth's atmosphere from sea level to the Mesopause (90km).
 
-## 🌍 How it Works
-The script uses standard lapse rates to calculate temperatures across different atmospheric layers:
-* [cite_start]**Troposphere**: 0 - 11 km [cite: 12, 93]
-* [cite_start]**Stratosphere**: 11 - 47 km (including the Ozone layer warming effect) [cite: 16, 24, 95, 99]
-* [cite_start]**Mesosphere**: 51 - 84.85 km [cite: 32, 37, 103, 105]
+## 🌍 Project Overview
+This project implements the International Standard Atmosphere (ISA) model. It uses specific lapse rates to calculate how temperature changes across different atmospheric layers, including the unique temperature inversion found in the Stratosphere.
 
-## 📈 Visualization
-The program generates a vertical profile plot and highlights a user-defined altitude with its specific coordinates.
+## 🚀 Key Features
+* **Multi-Layer Logic**: Accurately models the Troposphere, Stratosphere, and Mesosphere.
+* **Data Visualization**: Generates a professional vertical profile plot using Matplotlib.
+* **Interactive Element**: Allows users to input a specific altitude to see the exact temperature highlighted on the graph.
+* **Precision Math**: Uses NumPy for high-resolution data generation.
 
-![Temperature Graph](./your_graph_image.png)
+## 📉 Atmospheric Layers Modeled
+1. **Troposphere (0-11km)**: Standard cooling rate of -6.5°C/km.
+2. **Stratosphere (11-47km)**: Includes the warming effect where temperatures rise to -2.5°C.
+3. **Mesosphere (51-84.85km)**: Captures the drop toward the coldest part of the atmosphere.
 
 ## 🛠️ Tech Stack
-* [cite_start]**Python** [cite: 2]
-* [cite_start]**NumPy** (Numerical range generation) [cite: 7, 90]
-* [cite_start]**Matplotlib** (Data visualization) [cite: 8, 91]
+* **Language**: Python
+* **Libraries**: NumPy, Matplotlib
+
+## 📊 Sample Result
+Below is a visualization of the atmosphere with a test point at **45 km**:
+
+![Atmosphere Graph](https://github.com/YOUR_USERNAME/YOUR_REPO_NAME/blob/main/your_image_name.png?raw=true)
