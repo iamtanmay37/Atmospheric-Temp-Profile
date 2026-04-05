@@ -23,4 +23,4 @@ This project implements the International Standard Atmosphere (ISA) model. It us
 ## 📊 Sample Result
 Below is a visualization of the atmosphere with a test point at **45 km**:
 
-![Atmosphere Graph](https://github.com/YOUR_USERNAME/YOUR_REPO_NAME/blob/main/your_image_name.png?raw=true)
+![Atmosphere Graph](https://github.com/iamtanmay37/Atmospheric-Temp-Profile/blob/main/Graph.png)
